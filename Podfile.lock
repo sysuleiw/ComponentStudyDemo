@@ -1,0 +1,16 @@
+PODS:
+  - SubComponentA (0.0.1)
+
+DEPENDENCIES:
+  - SubComponentA
+
+SPEC REPOS:
+  https://github.com/sysuleiw/SubComponentSpec.git:
+    - SubComponentA
+
+SPEC CHECKSUMS:
+  SubComponentA: e6881fdafe0c13c038b2e15b34c99bf0aa77e012
+
+PODFILE CHECKSUM: 47576527a2e7dee27135018783c85d74f877bb76
+
+COCOAPODS: 1.7.0.rc.1
