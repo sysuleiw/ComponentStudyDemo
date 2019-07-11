@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import <SubComponentA/SubViewControllerA.h>
-#import <SubComponentC/SubComponentC.h>
+#import <SubComponentB/SubComponentB.h>
+#import <MGJRouter/MGJRouter.h>
 @interface ViewController ()
 
 @property (nonatomic, strong) UIButton *btn;
@@ -58,7 +59,9 @@
 
 - (void)btnAction2
 {
-    SubComponentC *vc = [SubComponentC new];
-    [self presentViewController:vc animated:YES completion:nil];
+//    SubComponentB *vc = [SubComponentB new];
+//    [self presentViewController:vc animated:YES completion:nil];
+    [MGJRouter openURL:@"gfloan://subcomponentc" withUserInfo:@{@"presentvc":self} completion:^(id result) {
+    }];
 }
 @end

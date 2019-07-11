@@ -1,20 +1,25 @@
 PODS:
+  - MGJRouter (0.9.3)
   - SubComponentA (0.0.1)
-  - SubComponentC (0.1.0)
+  - SubComponentB (0.1.1):
+    - MGJRouter (~> 0.9.0)
 
 DEPENDENCIES:
   - SubComponentA
-  - SubComponentC
+  - SubComponentB (= 0.1.1)
 
 SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MGJRouter
   https://github.com/sysuleiw/SubComponentSpec.git:
     - SubComponentA
-    - SubComponentC
+    - SubComponentB
 
 SPEC CHECKSUMS:
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
   SubComponentA: e6881fdafe0c13c038b2e15b34c99bf0aa77e012
-  SubComponentC: 00e926977d7d71765e2f1d5f16ef3b2ca5595c91
+  SubComponentB: 16ab130cce76783aae2f00589a565bbafdc1c178
 
-PODFILE CHECKSUM: 7d750e5b40a8b11b0eb8b990a9c689f9f7a72034
+PODFILE CHECKSUM: 0758ba7d3b0d0cb955ec85e52c5e764bc96c073b
 
 COCOAPODS: 1.7.0.rc.1

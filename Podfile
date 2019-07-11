@@ -13,5 +13,6 @@ target 'ComponentStudyDemo' do
 #  pod 'EleInvoiceCategory', :path => '/Users/liuguangqiang/Desktop/personRepo/iOS/componentModule/ModuleCategory/EleInvoiceCategory.podspec'
   
   pod 'SubComponentA'
-  pod 'SubComponentC'
+  pod 'SubComponentB', '0.1.1'
+  
 end
